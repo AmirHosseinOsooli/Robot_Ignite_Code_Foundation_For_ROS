@@ -29,14 +29,13 @@ A comprehensive robotics project showcasing ROS (Robot Operating System) skills 
 - [Usage](#usage)
 - [Task Details](#task-details)
 - [Key Concepts](#key-concepts)
-- [Results](#results)
 
 ---
 
 ## 📁 Project Structure
 
 ```
-ros-robot-control-exam/
+Robot_Ignite_Code_Foundation_For_ROS/
 ├── src/
 │   ├── robot_control/
 │   │   └── robot_control_class.py    # Core RobotControl class
@@ -99,8 +98,7 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
 
 # 2. Clone repository
-git clone https://github.com/yourusername/ros-robot-control-exam.git
-
+git clone https://github.com/AmirHosseinOsooli/Robot_Ignite_Code_Foundation_For_ROS.git
 # 3. Build workspace
 cd ~/catkin_ws
 catkin_make
@@ -109,9 +107,9 @@ catkin_make
 source devel/setup.bash
 
 # 5. Make scripts executable
-chmod +x ~/catkin_ws/src/ros-robot-control-exam/src/bash_tasks/*.sh
-chmod +x ~/catkin_ws/src/ros-robot-control-exam/src/python_tasks/*.py
-chmod +x ~/catkin_ws/src/ros-robot-control-exam/src/robot_control/*.py
+chmod +x ~/catkin_ws/src/Robot_Ignite_Code_Foundation_For_ROS/src/bash_tasks/*.sh
+chmod +x ~/catkin_ws/src/Robot_Ignite_Code_Foundation_For_ROS/src/python_tasks/*.py
+chmod +x ~/catkin_ws/src/Robot_Ignite_Code_Foundation_For_ROS/src/robot_control/*.py
 ```
 
 ---
@@ -127,7 +125,7 @@ chmod +x ~/catkin_ws/src/ros-robot-control-exam/src/robot_control/*.py
 roslaunch turtlebot_gazebo turtlebot_world.launch
 
 # Run task 1
-cd ~/catkin_ws/src/ros-robot-control-exam/src/python_tasks
+cd ~/catkin_ws/src/Robot_Ignite_Code_Foundation_For_ROS/src/python_tasks
 python task1.py
 ```
 
@@ -182,7 +180,7 @@ python big_square.py
 #### Task 1: Directory Creation
 
 ```bash
-cd ~/catkin_ws/src/ros-robot-control-exam/src/bash_tasks
+cd ~/catkin_ws/src/Robot_Ignite_Code_Foundation_For_ROS/src/bash_tasks
 ./task1.sh
 ```
 
@@ -355,34 +353,6 @@ def do_square():
 
 ---
 
-## 📊 Results
-
-### Exam Score
-
-```
-╔══════════════════════════════════════════╗
-║   ROBOT IGNITE CODE FOUNDATION FOR ROS   ║
-║         Prerequisites Exam Result        ║
-╠══════════════════════════════════════════╣
-║                                          ║
-║           SCORE: 10 / 10                 ║
-║                                          ║
-║              ★★★★★★★★★★                  ║
-║                                          ║
-║         🏆 PERFECT SCORE! 🏆            ║
-╚══════════════════════════════════════════╝
-```
-
-### Task Completion
-
-| Category | Tasks | Completed | Score |
-|----------|-------|-----------|-------|
-| Python/ROS | 6 | 6/6 | 100% |
-| Bash Scripting | 3 | 3/3 | 100% |
-| **Total** | **9** | **9/9** | **10/10** |
-
----
-
 ## 🧪 Testing
 
 ### Verify Installation
@@ -395,8 +365,8 @@ echo $ROS_DISTRO
 python --version
 
 # Test RobotControl import
-cd ~/catkin_ws/src/ros-robot-control-exam/src/python_tasks
-python -c "from robot_control_class import RobotControl; print('Import successful!')"
+cd ~/catkin_ws/src/Robot_Ignite_Code_Foundation_For_ROS/src/python_tasks
+python -c "from Robot_Ignite_Code_Foundation_For_ROS import RobotControl; print('Import successful!')"
 ```
 
 ### Run All Tasks
@@ -433,10 +403,10 @@ chmod +x test_all.sh
 **Solution:**
 ```bash
 # Ensure you're in the correct directory
-cd ~/catkin_ws/src/ros-robot-control-exam/src/python_tasks
+cd ~/catkin_ws/src/Robot_Ignite_Code_Foundation_For_ROS/src/python_tasks
 
 # Or add to PYTHONPATH
-export PYTHONPATH=$PYTHONPATH:~/catkin_ws/src/ros-robot-control-exam/src/robot_control
+export PYTHONPATH=$PYTHONPATH:~/catkin_ws/src/Robot_Ignite_Code_Foundation_For_ROS/src/robot_control
 ```
 
 ---
@@ -492,6 +462,11 @@ This exam successfully demonstrates:
 
 ---
 
+## 👤 Author
+
+**AmirHossein Osooli**
+---
+
 ## 🤝 Contributing
 
 This is an exam submission repository. For educational purposes:
@@ -522,14 +497,6 @@ MIT License - See [LICENSE](LICENSE) file
 ### Related Courses
 - [Robot Ignite Academy](https://www.theconstructsim.com/)
 - [ROS for Beginners](https://www.theconstructsim.com/robotigniteacademy_learnros/)
-
----
-
-## 📞 Contact
-
-- **GitHub**: [Your GitHub Profile]
-- **Email**: your.email@example.com
-- **Course**: Robot Ignite Code Foundation for ROS
 
 ---
 
