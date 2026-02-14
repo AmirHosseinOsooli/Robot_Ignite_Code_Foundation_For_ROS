@@ -81,6 +81,21 @@ Robot_Ignite_Code_Foundation_For_ROS/
 
 ---
 
+## 🎮 Simulation Preview
+
+<div align="center">
+  <img src="images/ros-robot-control-exam.png" alt="TurtleBot Square Drawing Simulation" width="90%">
+  <p><em>TurtleBot drawing a square in Gazebo simulation - demonstrating precise timing-based navigation</em></p>
+</div>
+
+**Simulation Features:**
+- ✅ Brick wall environment for visual square tracking
+- ✅ TurtleBot Kobuki base with laser scanner
+- ✅ Grid floor for distance verification
+- ✅ Real-time path visualization
+
+---
+
 ## 🚀 Installation
 
 ### Prerequisites
